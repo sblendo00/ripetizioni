@@ -1,0 +1,11 @@
+<form>
+  <input type = number #numero1><br>
+  <input type = number #numero2><br>
+  
+  <button (click) = "addizione(numero1,numero2)">+</button>
+  <button (click) = "sottrazione(numero1,numero2)">-</button>
+  <button (click) = "moltiplicazione(numero1,numero2)">*</button>
+  <button (click) = "divisione(numero1,numero2)">/</button>
+ </form>
+ <app-ris [ris] = "ris"></app-ris>
+ <!-- IL RIS NELLE QUADRE è IL RIS NEL COMPONENT TS INVECE QUELLO TRA LE VIRGOLETTE è NELL'APP COMPONENT TS -->
